@@ -1,0 +1,9 @@
+.page {
+  @apply h-screen flex justify-center items-center;
+
+  // light mode
+  @apply bg-zinc-300;
+
+  // dark mode
+  @apply dark:bg-black;
+}

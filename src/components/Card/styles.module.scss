@@ -1,0 +1,24 @@
+.component {
+  @apply py-4 px-8 flex items-start gap-6;
+
+  // light mode
+  @apply bg-zinc-100 text-zinc-600 bg-opacity-70 backdrop-blur;
+
+  // dark mode
+  @apply dark:bg-zinc-900 dark:text-zinc-200 dark:bg-opacity-70;
+
+  > svg {
+    @apply w-6 h-6 mt-3;
+  }
+
+  div {
+    @apply flex-1 flex flex-col gap-2 text-sm leading-relaxed cursor-pointer;
+  }
+
+  footer {
+    @apply text-xs;
+
+    // light mode
+    @apply text-zinc-500;
+  }
+}

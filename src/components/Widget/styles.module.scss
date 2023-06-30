@@ -1,0 +1,23 @@
+.component {
+  @apply w-96 shadow-xl rounded-md overflow-hidden;
+
+  header {
+    @apply py-4 px-6 flex items-center justify-center gap-2;
+
+    // light mode
+    @apply bg-zinc-200 text-orange-700;
+
+    // dark mode
+    @apply dark:bg-zinc-800 dark:text-orange-500
+  }
+
+  section {
+    @apply divide-y-2 bg-pattern;
+
+    // light mode
+    @apply divide-zinc-300;
+
+    // dark mode
+    @apply dark:divide-zinc-900;
+  }
+}
